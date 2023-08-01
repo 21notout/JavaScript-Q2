@@ -8,11 +8,14 @@ body{
     height: 100vh;
     width: 100vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: green;
+    background-color: rgb(139, 207, 139);
 }
-
+.error{
+    padding: 10px;
+}
 .calculator-body{
     background-color: aqua;
     height: 50vh;
@@ -73,4 +76,13 @@ p{
 }
 .btn-3{
     background-color: rgb(251, 131, 181);
+}
+#rs{
+    height: 100%;
+    width: 100%;
+}
+.para1{
+    font-size: 15px;
+    color: red;
+    margin: 5px;
 }
